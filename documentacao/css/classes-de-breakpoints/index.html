@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="ls-theme-green documentacao documentacao_css documentacao_css_cores-do-tema documentacao_css_cores-do-tema_index">
+<html lang="pt-br" class="ls-theme-green documentacao documentacao_css documentacao_css_classes-de-breakpoints documentacao_css_classes-de-breakpoints_index">
 <head>
   <meta charset="UTF-8">
-  <title>Cores do Tema</title>
+  <title>Classes de breakpoints</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Insira cores no seu projeto." />
+  <meta name="description" content="Classes que representam o breakpoint atual" />
   <meta name="keywords" content="" />
 
   <link href="../../../assets/stylesheets/docs.css" rel="stylesheet" type="text/css" />
@@ -69,9 +69,9 @@
   <nav class="doc-sidebar-menu">
     <ul>
       <li class=''><a class='' href='/locawebstyle/documentacao/css/grid/'>Estrutura de Grid</a></li>
-      <li class=''><a class='' href='/locawebstyle/documentacao/css/classes-de-breakpoints/'>Classes de breakpoints</a></li>
+      <li class='active'><a class='active' href='/locawebstyle/documentacao/css/classes-de-breakpoints/'>Classes de breakpoints</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/css/classes-funcionais/'>Classes funcionais</a></li>
-      <li class='active'><a class='active' href='/locawebstyle/documentacao/css/cores-do-tema/'>Cores do tema</a></li>
+      <li class=''><a class='' href='/locawebstyle/documentacao/css/cores-do-tema/'>Cores do tema</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/css/icones/'>Ícones</a></li>
     </ul>
   </nav>
@@ -81,105 +81,35 @@
 <section class="col-md-9">
 
   <div class="doc-intro-content">
-  <h1>Cores do Tema</h1>
-  <p>Insira cores no seu projeto.</p>
+  <h1>Classes de breakpoints</h1>
+  <p>Classes que representam o breakpoint atual</p>
 </div>
 
 
-  <p>Existem uma série de temas de cores base usados no Locaweb Style. Essas cores são adicionadas conforme vamos implementando novos produtos na Locaweb. O tema de cor é aplicado via classe no elemento <code>html</code>.</p>
+  <p>Após a iniciação do Locastyle, uma função adiciona classes na tag <code>html</code> referentes a largura do viewport.</p>
+
 
   <table class="ls-table">
     <thead>
       <tr>
-        <th>Classe da cor</th>
-        <th>Cor</th>
+        <th>Nome</th>
+        <th>Descrição</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>ls-theme-green</td>
-        <td>Tema verde</td>
-      </tr>
-      <tr>
-        <td>ls-theme-light-green</td>
-        <td>Tema verde claro</td>
-      </tr>
-      <tr>
-        <td>ls-theme-blue</td>
-        <td>Tema Azul</td>
-      </tr>
-      <tr>
-        <td>ls-theme-gold</td>
-        <td>Tema dourada</td>
-      </tr>
-      <tr>
-        <td>ls-theme-gray</td>
-        <td>Tema cinza</td>
-      </tr>
+      <tr><td>.ls-screen-xs</td><td>Se for menor que 768px</td></tr>
+      <tr><td>.ls-screen-sm</td><td>Se for maior ou igual a 768px e menor que 992px</td></tr>
+      <tr><td>.ls-screen-md</td><td>Se for maior ou igual a 992px e menor que 1200px</td></tr>
+      <tr><td>.ls-screen-lg</td><td>Se for maior ou igual a 1200px</td></tr>
     </tbody>
   </table>
 
-  <p>Clique nos links abaixo para ter uma ideia de como o layout poderá ficar:</p>
+  <p>Note que você também pode resgatar a classe através da seguinte função de javascript:</p>
+  <div class="highlight javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre> <span class="nx">locastyle</span><span class="p">.</span><span class="nx">breakpointClass</span><span class="w">
+</span></pre></td></tr></tbody></table>
+</div>
 
-  <div class="ls-box-demo">
-    <div class="doc-test-themes ls-group-btn ls-group-active">
-      <a href="#" class="ls-btn-primary ls-active" data-toggle-class="ls-theme-green" data-target="html">ls-theme-green</a>
-      <a href="#" class="ls-btn-primary" data-toggle-class="ls-theme-light-green" data-target="html">ls-theme-light-green</a>
-      <a href="#" class="ls-btn-primary" data-toggle-class="ls-theme-blue" data-target="html">ls-theme-blue</a>
-      <a href="#" class="ls-btn-primary" data-toggle-class="ls-theme-gold" data-target="html">ls-theme-gold</a>
-      <a href="#" class="ls-btn-primary" data-toggle-class="ls-theme-gray" data-target="html">ls-theme-gray</a>
-    </div>
-    <br>
-    <br>
-    <div data-ls-module="dropdown" class="ls-dropdown">
-      <a href="#" class="ls-btn-primary">Users</a>
-
-      <ul class="ls-dropdown-nav">
-        <li><a href="#">Omar Bowling</a></li>
-        <li><a href="#">Neil Weiner</a></li>
-        <li><a href="#">Alonzo Kane</a></li>
-        <li><a href="#">Beau Mangum</a></li>
-        <li><a href="#">John Melton</a></li>
-      </ul>
-    </div>
-
-    <hr>
-
-    <div class="ls-topbar ls-no-position" style="position: static !important;">
-
-      <!-- Notification bar -->
-      <div class="ls-notification-topbar">
-        <!-- Link of support/help -->
-        <div class="ls-alerts-list">
-          <a href="#" class="ls-ico-bell-o" data-counter="5" data-ls-module="topbarCurtain" data-target="#ls-notification-curtain"><span>Notificações</span></a>
-          <a href="#" class="ls-ico-bullhorn" data-ls-module="topbarCurtain" data-target="#ls-help-curtain"><span>Ajuda</span></a>
-          <a href="#" class="ls-ico-question" data-ls-module="topbarCurtain" data-target="#ls-feedback-curtain"><span>Sugestões</span></a>
-        </div>
-
-        <!-- User details -->
-        <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
-          <a href="#" class="ls-ico-user">
-            Fernando
-            <small>(fmolina)</small>
-          </a>
-          <nav class="ls-dropdown-nav ls-user-menu">
-            <ul>
-              <li><a href="#">Conta</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
-      <span class="ls-ico-menu"></span>
-
-      <!-- Nome do produto/marca -->
-      <h1 class="ls-brand-name"><a class="ls-ico-earth" href="/documentacao/exemplos/boilerplate">Boilerplate</a></h1>
-    </div>
-  </div>
-
-<p><strong>*</strong>Exemplo de topbar não funcional, apenas para mostrar a mudança de tema.</p>
 </section>
-
 
   </div>
 </div>

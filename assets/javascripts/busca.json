@@ -103,12 +103,6 @@
       "path": "documentacao/componentes/popover"
   },
   
-  "documentacao/componentes/rastreando-eventos" :   {
-      "title": "Rastreando eventos",
-      "description": "Rastreio de eventos automáticos para quem usa o "Analytics" do Google",
-      "path": "documentacao/componentes/rastreando-eventos"
-  },
-  
   "documentacao/componentes/tabelas" :   {
       "title": "Tabelas",
       "description": "Padrão de tabelas",
@@ -131,6 +125,12 @@
       "title": "Tour Guiado",
       "description": "Exibe uma navegação explicativa de elementos pré definidos",
       "path": "documentacao/componentes/tour-guiado"
+  },
+  
+  "documentacao/css/classes-de-breakpoints" :   {
+      "title": "Classes de breakpoints",
+      "description": "Classes que representam o breakpoint atual",
+      "path": "documentacao/css/classes-de-breakpoints"
   },
   
   "documentacao/css/classes-funcionais" :   {
@@ -173,6 +173,18 @@
       "title": "",
       "description": "",
       "path": "documentacao/exemplos/boilerplate"
+  },
+  
+  "documentacao/exemplos/erro-404" :   {
+      "title": "",
+      "description": "",
+      "path": "documentacao/exemplos/erro-404"
+  },
+  
+  "documentacao/exemplos/erro-500" :   {
+      "title": "",
+      "description": "",
+      "path": "documentacao/exemplos/erro-500"
   },
   
   "documentacao/exemplos" :   {
@@ -313,6 +325,12 @@
       "path": "documentacao/exemplos/painel2/stats"
   },
   
+  "documentacao/exemplos/product-not-hired" :   {
+      "title": "",
+      "description": "",
+      "path": "documentacao/exemplos/product-not-hired"
+  },
+  
   "documentacao/formularios/calendario" :   {
       "title": "Calendário",
       "description": "Calendário e para facilitar a selação de datas",
@@ -401,6 +419,12 @@
       "title": "Alternando Classes",
       "description": "Como alterar classes de elementos",
       "path": "documentacao/funcoes-js"
+  },
+  
+  "documentacao/funcoes-js/rastreando-eventos" :   {
+      "title": "Rastreando eventos",
+      "description": "Rastreio de eventos automáticos para quem usa o "Analytics" do Google",
+      "path": "documentacao/funcoes-js/rastreando-eventos"
   },
   
   "documentacao/funcoes-js/rolagem-suave" :   {
