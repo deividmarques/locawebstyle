@@ -65,7 +65,8 @@
 
 <div class="doc-content container">
   <div class="row">
-    <aside class="col-md-3">
+    <aside class="doc-sidebar col-md-3">
+<div class="doc-sidebar-inner">
   <nav class="doc-sidebar-menu">
     <ul>
       <li class=''><a class='' href='/locawebstyle/documentacao/componentes/'>Abas</a></li>
@@ -87,6 +88,7 @@
       <li class=''><a class='' href='/locawebstyle/documentacao/componentes/tour-guiado/'>Tour Guiado</a></li>
     </ul>
   </nav>
+</div>
 </aside>
 
 
@@ -200,6 +202,42 @@
     </tbody>
   </table>
 
+  <div class="ls-box ls-box-gray">
+    <h2 class="doc-title-4">Acessibilidade</h2>
+    <p>Via javascript, o modal recebe <code>focus()</code> e o atributo <code>tabindex="-1"</code> além de ser adicionada as ARIAs abaixo:</p>
+    <table class="ls-table">
+      <thead>
+        <tr>
+          <th>Estado do modal</th>
+          <th>Elemento</th>
+          <th>Wai-aria</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Escondido</td>
+          <td>.ls-modal</td>
+          <td>aria-hidden="true"</td>
+        </tr>
+        <tr>
+          <td>Exibindo</td>
+          <td>.ls-modal</td>
+          <td>aria-hidden="false"</td>
+        </tr>
+        <tr>
+          <td>Aberto/Fechado</td>
+          <td>.ls-modal</td>
+          <td>role="dialog"</td>
+        </tr>
+        <tr>
+          <td>Aberto/Fechado</td>
+          <td>.ls-modal</td>
+          <td>aria-labelledby="ID_DO_TITULO"</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <h3 class="doc-title-3">Abrindo a modal via URL</h3>
     <p>Para abrir a modal automaticamente assim que a página for carregada, basta passar na URL o nome da modal. Tente aqui mesmo, no final da URL desta página, adicione <code>#myAwesomeModal</code> e aperte ENTER.</p>
 
@@ -213,12 +251,7 @@
       <h4 class="ls-modal-title">Modal title</h4>
     </div>
     <div class="ls-modal-body">
-      <p>
-        <a href="#" class="ls-btn-primary" data-ls-module="popover" data-title="Popover na modal" data-content="É um popover na modal" data-placement="top">
-          Popover
-        </a>
-      </p>
-      <p>Soluta corporis dolorem quasi tempore tempora non esse ut sint est et fugit. Blanditiis accusantium possimus fugiat inventore quod quis. Quis repudiandae laborum maxime officia assumenda reiciendis magni quisquam. Provident qui est quis saepe eveniet nobis a minima distinctio quasi quasi nihil. Minus ipsum temporibus molestiae commodi distinctio. Vel atque voluptates aut reiciendis dolores et est aperiam iusto est doloremque error esse quaerat. Omnis qui laborum corporis et in ex et ab fugiat quia molestiae voluptatem dolores neque. Excepturi similique incidunt quam deserunt et odio omnis debitis odit quia. Voluptatem corrupti animi a ut distinctio earum deserunt officiis ipsum ducimus nulla et esse. Possimus eligendi adipisci reprehenderit voluptatem dolores aut officia alias. Et velit voluptatem ratione error veritatis est possimus quia porro omnis. Et quisquam aut molestiae voluptates perspiciatis error sit modi rerum ut recusandae illum aspernatur. Et natus sed laboriosam quas labore. Dolores consequatur consequatur et dolorum totam labore et exercitationem repellendus ab amet. Nam sed quasi voluptate nihil voluptates voluptatum accusamus deleniti expedita est pariatur rem consectetur</p>
+      <p>Esse et hic optio sequi ea ea nesciunt vero perspiciatis qui in amet suscipit. Architecto est et corrupti quae voluptatibus sapiente. Quae dicta quos eum cupiditate quia est accusantium hic maxime veritatis dolorem totam. Et ut consectetur molestias corporis accusamus voluptate consequatur et vero saepe. Molestiae voluptas modi repellat autem est nemo eius itaque tenetur molestias necessitatibus maiores rerum. Quisquam id et non quia architecto dignissimos. Id officia excepturi suscipit ratione nesciunt repudiandae nemo necessitatibus doloremque fugit corporis voluptates. Voluptatum recusandae eligendi asperiores eum eveniet ut laborum similique debitis quod voluptate. Et maxime ratione et. Suscipit ducimus esse mollitia laudantium exercitationem incidunt vel dignissimos eius ut. Consequatur at sequi exercitationem beatae vero in sed ut quibusdam molestiae architecto. Saepe est et porro minus maxime. Officiis dolorum minus repellendus error quasi expedita tempore sapiente eius repudiandae sapiente et consequatur. Qui quae nulla laboriosam fuga deleniti illum et consectetur quae. Id asperiores placeat sunt molestias culpa est illo non quia nam</p>
     </div>
     <div class="ls-modal-footer">
       <button class="ls-btn ls-float-right" data-dismiss="modal">Close</button>
@@ -244,12 +277,7 @@
 14
 15
 16
-17
-18
-19
-20
-21
-22</pre></td><td class="code"><pre><span class="nt">&lt;button</span> <span class="na">data-ls-module=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#myAwesomeModal"</span> <span class="na">class=</span><span class="s">"ls-btn-primary"</span><span class="nt">&gt;</span>Ative a modal<span class="nt">&lt;/button&gt;</span>
+17</pre></td><td class="code"><pre><span class="nt">&lt;button</span> <span class="na">data-ls-module=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#myAwesomeModal"</span> <span class="na">class=</span><span class="s">"ls-btn-primary"</span><span class="nt">&gt;</span>Ative a modal<span class="nt">&lt;/button&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-modal fade"</span> <span class="na">id=</span><span class="s">"myAwesomeModal"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-modal-box"</span><span class="nt">&gt;</span>
@@ -257,13 +285,8 @@
       <span class="nt">&lt;button</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/button&gt;</span>
       <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"ls-modal-title"</span><span class="nt">&gt;</span>Modal title<span class="nt">&lt;/h4&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-modal-body"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;p&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"ls-btn-primary"</span> <span class="na">data-ls-module=</span><span class="s">"popover"</span> <span class="na">data-title=</span><span class="s">"Popover na modal"</span> <span class="na">data-content=</span><span class="s">"É um popover na modal"</span> <span class="na">data-placement=</span><span class="s">"top"</span><span class="nt">&gt;</span>
-          Popover
-        <span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>In non velit in similique deleniti eum. Et repudiandae at voluptatem id sunt dolores. Totam culpa ea quos id eveniet vel omnis doloribus aut unde quia tempore aliquam ut. Adipisci dolor voluptas dignissimos enim id accusamus quibusdam numquam doloremque. Nisi eos voluptatem est quas at nulla eos. Ea omnis facilis voluptatum. Magni cumque animi et et quisquam vel. A distinctio quis et nihil qui aliquam aliquam omnis sit aut repudiandae rerum sit ab. Consequatur maiores et voluptatem. Veritatis a quia saepe. Dolorem nisi sunt perspiciatis commodi est est sit. Tempora facilis deserunt et nulla illo repellat aliquid debitis explicabo illo sit harum. Qui dicta officiis nulla. Adipisci magni deleniti eum aliquid. Cumque sunt facilis voluptate eos harum quo corporis dolorum aliquid veniam tenetur consequatur est ut<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-modal-body"</span> <span class="na">id=</span><span class="s">"myModalBody"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Maiores quis nihil delectus ut voluptatem dolorem voluptas explicabo aut quisquam vero atque ea. Quo sit nulla in dolor id voluptas consequatur odio beatae officia consequatur consequatur voluptas quisquam. Facilis quod ut consequuntur pariatur. Sit molestias deserunt sint voluptas consequuntur blanditiis assumenda perspiciatis dolor sed iure. Tenetur voluptatem sit repellendus. Illo quisquam vero commodi modi necessitatibus sint veritatis fugit et dolores tempora est aliquid. Voluptatum ut blanditiis iure nulla voluptate aut suscipit omnis rerum. Ipsum blanditiis quae id quia. Culpa accusantium quia dolorem perspiciatis veritatis tempore. Qui est quae quibusdam voluptatibus vel. Iure molestias pariatur dolores et optio qui laborum qui est omnis et fugit. Ut laudantium laudantium enim et ut excepturi aut ea. Quia excepturi qui perspiciatis et est cum nesciunt ex veniam minus delectus aut voluptas perspiciatis. Voluptas id quia et iure amet optio consequatur veniam aut aliquam laudantium. Doloribus qui rerum quia facilis pariatur impedit porro sint<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-modal-footer"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"ls-btn ls-float-right"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/button&gt;</span>

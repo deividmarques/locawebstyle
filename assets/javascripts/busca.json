@@ -13,6 +13,42 @@
       "path": "changelog/2014/07/15/versao-3-0-0"
   },
   
+  "changelog/2014/07/23/3-0-1" :   {
+      "title": "Versão 3.0.1",
+      "description": "",
+      "path": "changelog/2014/07/23/3-0-1"
+  },
+  
+  "changelog/2014/07/31/versao-3-1-0" :   {
+      "title": "Versão 3.1.0",
+      "description": "",
+      "path": "changelog/2014/07/31/versao-3-1-0"
+  },
+  
+  "changelog/2014/08/19/versao-3-2-0" :   {
+      "title": "Versão 3.2.0",
+      "description": "",
+      "path": "changelog/2014/08/19/versao-3-2-0"
+  },
+  
+  "changelog/2014/08/20/versao-3-2-1" :   {
+      "title": "Versão 3.2.1",
+      "description": "",
+      "path": "changelog/2014/08/20/versao-3-2-1"
+  },
+  
+  "changelog/2014/08/20/versao-3-2-2" :   {
+      "title": "Versão 3.2.2",
+      "description": "",
+      "path": "changelog/2014/08/20/versao-3-2-2"
+  },
+  
+  "changelog/2014/09/04/versao-3-3-0" :   {
+      "title": "Versão 3.3.0",
+      "description": "",
+      "path": "changelog/2014/09/04/versao-3-3-0"
+  },
+  
   "changelog" :   {
       "title": "Changelog",
       "description": "Acompanhe o changelog",
@@ -187,6 +223,12 @@
       "path": "documentacao/exemplos/erro-500"
   },
   
+  "documentacao/exemplos/forgot-password" :   {
+      "title": "Esqueci a minha senha",
+      "description": "",
+      "path": "documentacao/exemplos/forgot-password"
+  },
+  
   "documentacao/exemplos" :   {
       "title": "Exemplos e modelos",
       "description": "Estas telas são modelos de protótipos com códigos funcionais de telas usando o Locaweb Style.",
@@ -325,6 +367,90 @@
       "path": "documentacao/exemplos/painel2/stats"
   },
   
+  "documentacao/exemplos/painel3/contacts" :   {
+      "title": "Contatos",
+      "description": "",
+      "path": "documentacao/exemplos/painel3/contacts"
+  },
+  
+  "documentacao/exemplos/painel3/nameservers/edit" :   {
+      "title": "Servidores de DNS",
+      "description": "",
+      "path": "documentacao/exemplos/painel3/nameservers/edit"
+  },
+  
+  "documentacao/exemplos/painel3/nameservers" :   {
+      "title": "Servidores de DNS",
+      "description": "",
+      "path": "documentacao/exemplos/painel3/nameservers"
+  },
+  
+  "documentacao/exemplos/painel3/pre-painel" :   {
+      "title": "Pré Painel",
+      "description": "",
+      "path": "documentacao/exemplos/painel3/pre-painel"
+  },
+  
+  "documentacao/exemplos/painel4/config-favicon" :   {
+      "title": "Favicon",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-favicon"
+  },
+  
+  "documentacao/exemplos/painel4/config-ga" :   {
+      "title": "Google analytics",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-ga"
+  },
+  
+  "documentacao/exemplos/painel4/config-language" :   {
+      "title": "Idiomas",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-language"
+  },
+  
+  "documentacao/exemplos/painel4/config-mobile" :   {
+      "title": "Site feito com o Criador de Sites Mobile",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-mobile"
+  },
+  
+  "documentacao/exemplos/painel4/config-publish" :   {
+      "title": "Publicar o site",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-publish"
+  },
+  
+  "documentacao/exemplos/painel4/config-users" :   {
+      "title": "Usuários do Site",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/config-users"
+  },
+  
+  "documentacao/exemplos/painel4/home-first-access" :   {
+      "title": "Página Inicial",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/home-first-access"
+  },
+  
+  "documentacao/exemplos/painel4/home" :   {
+      "title": "Página Inicial",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/home"
+  },
+  
+  "documentacao/exemplos/painel4/plugins" :   {
+      "title": "Plugins",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/plugins"
+  },
+  
+  "documentacao/exemplos/painel4/pre-painel" :   {
+      "title": "Pré Painel - Criador de Sites 2.0",
+      "description": "",
+      "path": "documentacao/exemplos/painel4/pre-painel"
+  },
+  
   "documentacao/exemplos/product-not-hired" :   {
       "title": "",
       "description": "",
@@ -461,6 +587,12 @@
       "title": "Informações iniciais",
       "description": "Iniciando seu desenvolvimento com Locaweb Style",
       "path": "documentacao/introducao"
+  },
+  
+  "documentacao/introducao/suporte-browsers" :   {
+      "title": "Suporte para browsers antigos",
+      "description": "Entenda como melhorar o suporte a browsers antigos, como o IE8",
+      "path": "documentacao/introducao/suporte-browsers"
   },
   
   "documentacao/praticas/css" :   {

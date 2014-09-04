@@ -65,7 +65,8 @@
 
 <div class="doc-content container">
   <div class="row">
-    <aside class="col-md-3">
+    <aside class="doc-sidebar col-md-3">
+<div class="doc-sidebar-inner">
   <nav class="doc-sidebar-menu">
     <ul>
       <li class=''><a class='' href='/locawebstyle/documentacao/componentes/'>Abas</a></li>
@@ -87,6 +88,7 @@
       <li class=''><a class='' href='/locawebstyle/documentacao/componentes/tour-guiado/'>Tour Guiado</a></li>
     </ul>
   </nav>
+</div>
 </aside>
 
 
@@ -148,6 +150,11 @@
     </tbody>
   </table>
 
+  <div class="ls-box ls-box-gray">
+    <h2 class="doc-title-4">Acessibilidade</h2>
+    <p>Via javascript é adicionada a ARIA <code>role="alert"</code></p>
+  </div>
+
   <p>Veja primeiro o exemplo abaixo: ao clicar no <strong>X</strong> do lado direito, o alerta é fechado.</p>
   <div class="ls-box-demo">
     <div class="ls-alert-warning ls-dismissable">
@@ -188,11 +195,22 @@
     <div class="ls-alert-success ls-md-space"><strong>Sucesso!</strong> Você conseguiu, parabéns! <strong><a href="#">Entre aqui</a></strong>.</div>
 <div class="ls-alert-info ls-sm-space"><strong>Atenção:</strong> Você tem informações importantes para ler.</div>
   </div>
-<div class="highlight html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-success ls-md-space"</span><span class="nt">&gt;&lt;strong&gt;</span>Sucesso!<span class="nt">&lt;/strong&gt;</span> Você conseguiu, parabéns! <span class="nt">&lt;strong&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Entre aqui<span class="nt">&lt;/a&gt;&lt;/strong&gt;</span>.<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-info ls-sm-space"</span><span class="nt">&gt;&lt;strong&gt;</span>Atenção:<span class="nt">&lt;/strong&gt;</span> Você tem informações importantes para ler.<span class="nt">&lt;/div&gt;</span>
+  <div class="highlight html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-success ls-md-space"</span><span class="nt">&gt;&lt;strong&gt;</span>Sucesso!<span class="nt">&lt;/strong&gt;</span> Você conseguiu, parabéns! <span class="nt">&lt;strong&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Entre aqui<span class="nt">&lt;/a&gt;&lt;/strong&gt;</span>.<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-info ls-sm-space"</span><span class="nt">&gt;&lt;strong&gt;</span>Atenção:<span class="nt">&lt;/strong&gt;</span> Você tem informações importantes para ler.<span class="nt">&lt;/div&gt;</span><span class="w">
+</span></pre></td></tr></tbody></table>
+</div>
+
+
+  <h2 class="doc-title-3">Fixando alertas</h2>
+  <p>Para fixar alertas, tanto em cima quanto em baixo, basta utilizar as classes <code>.ls-alert-fixed-top</code> (em cima) ou <code>.ls-alert-fixed-bottom</code> (em baixo).</p>
+
+  <div class="highlight html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-success ls-alert-fixed-top"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ls-alert-success ls-alert-fixed-bottom"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
 </pre></td></tr></tbody></table>
 </div>
+
 
 </section>
 
