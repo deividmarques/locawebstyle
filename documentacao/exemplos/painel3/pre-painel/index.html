@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html class="ls-theme-orange  ls-pre-panel">
 <head>
+  <title>Pré Painel</title>
+
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Pré Painel</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" sizes="192x192" href="/locawebstyle/assets/images/ico-painel2.png">
+    <link rel="apple-touch-icon" href="/locawebstyle/assets/images/ico-painel2.png">
+    <meta name="apple-mobile-web-app-title" content="Painel 2">
+
   <link href="../../../../assets/stylesheets/locastyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="documentacao documentacao_exemplos documentacao_exemplos_painel3 documentacao_exemplos_painel3_pre-painel documentacao_exemplos_painel3_pre-painel_index">
@@ -42,12 +50,23 @@
 
   <span class="ls-show-sidebar ls-ico-menu"></span>
 
+  <a href="/locawebstyle/documentacao/exemplos/painel3/pre-painel"  class="ls-go-next"><span class="ls-text">Voltar à lista de serviços</span></a>
+
   <!-- Nome do produto/marca -->
 </div>
 
 
   <aside class="ls-sidebar">
-        <h1 class="ls-brand-name ls-ico-earth"><a href="../home">Registro de Domínio</a></h1>
+      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+  <a href="#" class="ls-ico-user">
+    João
+    <small>(fmolina)</small>
+  </a>
+  <nav class="ls-dropdown-nav ls-user-menu">
+    <a href="#" class="ls-btn-logout">Sair</a>
+  </nav>
+</div>
+  <h1 class="ls-brand-name ls-ico-earth"><a href="../home">Registro de Domínio</a></h1>
 
 
   </aside>
@@ -56,18 +75,19 @@
     <div class="container-fluid">
       <h1 class="ls-title-intro ls-ico-list2">Registros</h1>
 
-<div class="ls-box ls-dismissable">
-  <span data-ls-module="dismiss" class="ls-dismiss">&times;</span>
-  <h2 class="ls-title-3">Como funciona</h2>
-  <p>Saiba como utilizar o painel de Registro de Domínio com as respostas para as dúvidas mais frequentes. Para ler sobre outros assuntos, consulte nossa <a target="_blank" href="http://wiki.locaweb.com.br/pt-br/Categoria:Registro_de_dom%C3%ADnio">wiki</a>.</p>
-  <hr>
-  <h3 class="ls-title-4">Registrei um domínio na Locaweb. E agora?</h3>
+<div class="ls-alert-box ls-dismissable">
+  <header class="ls-info-header">
+    <span data-ls-module="dismiss" class="ls-dismiss">&times;</span>
+    <h2 class="ls-title-3">Como funciona</h2>
+    <p>Saiba como utilizar o painel de Registro de Domínio com as respostas para as dúvidas mais frequentes.<br>Para ler sobre outros assuntos, consulte nossa <a target="_blank" href="http://wiki.locaweb.com.br/pt-br/Categoria:Registro_de_dom%C3%ADnio">wiki</a>.</p>
+  </header><!-- /header -->
+  <h3 class="ls-title-5">Registrei um domínio na Locaweb. E agora?</h3>
   <p>O registro de domínio apenas garante que nenhuma outra pessoa ou empresa irá criar um site com o endereço registrado. Para ter um site é necessário contratar um <a target="_blank" href="http://www.locaweb.com.br/produtos/hospedagem-de-sites/planos.html">serviço de hospedagem</a>. Se quiser apenas um e-mail personalizado, contrate um plano de <a target="_blank" href="http://www.locaweb.com.br/produtos/email/planos.html">Email Locaweb</a>.</p>
   <br>
-  <h3 class="ls-title-4">Tenho um site mas ele não está hospedado na Locaweb. O que preciso fazer?</h3>
+  <h3 class="ls-title-5">Tenho um site mas ele não está hospedado na Locaweb. O que preciso fazer?</h3>
   <p>Para que o domínio aponte para o seu site, é necessário alterar os servidores de DNS. Acesse a administração do domínio que deseja alterar e clique na aba Servidores DNS. Preencha os campos com os endereços fornecidos pelo seu provedor de hospedagem.</p>
   <br>
-  <h3 class="ls-title-4">Tenho outros domínios registrados fora da Locaweb e gostaria de administrá-los aqui. O que preciso fazer?</h3>
+  <h3 class="ls-title-5">Tenho outros domínios registrados fora da Locaweb e gostaria de administrá-los aqui. O que preciso fazer?</h3>
   <p>Basta transferir os domínios para a Locaweb. Dessa forma, será possível administrar neste mesmo painel todos os domínios que você registrou. Veja mais detalhes sobre a transferência de domínios nacionais e sobre a transferência de domínios internacionais.</p>
 </div>
 
@@ -448,7 +468,7 @@
     <footer class="ls-footer" role="contentinfo">
   <nav class="ls-footer-menu">
       <h2 class="ls-title-footer">suporte e ajuda</h2>
-      <ul>
+      <ul class="ls-footer-list">
         <li>
           <a href="#" target="_blank" class="bg-customer-support">
             <span class="visible-lg">Atendimento</span>
@@ -473,7 +493,7 @@
   </nav>
   <div class="ls-footer-info">
     <span class="last-access ls-ico-screen"><strong>Último acesso: </strong>99/99/9999 99:99:99</span>
-    <div class="set-ip"><span class="set-ip"><strong>IP:</strong> 000.00.00.000</span></div>
+    <div class="set-ip"><strong>IP:</strong> 000.00.00.000</div>
     <p class="ls-copy-right">Copyright © 1997-2014 Serviços de Internet S/A.</p>
   </div>
 </footer>
@@ -486,23 +506,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Quibusdam et et iusto nobis eos ipsum id qui voluptas harum</a>
+            <a href="#">Aut dolore at harum pariatur nostrum nam atque similique</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Et non magnam neque quo iste sunt saepe</a>
+            <a href="#">Perferendis quia nobis dolore</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Distinctio architecto quaerat ut porro consequatur consequuntur nihil nihil facere officia</a>
+            <a href="#">Inventore ducimus sit repudiandae nisi natus voluptatem tenetur</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Dolorem tempora iure quis odit laboriosam perspiciatis ipsum quis sit suscipit nam</a>
+            <a href="#">Vel quod dolorem ducimus dolores et tempora consequatur in fugit commodi minima fugiat id possimus</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Quos nam dolorem ipsa odio ut impedit excepturi aspernatur</a>
+            <a href="#">Et rerum quaerat qui laborum impedit</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -511,8 +531,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> velit consequuntur rerum pariatur molestiae repellendus</a></li>
-          <li><a href="#">> quia quis ut quae placeat est</a></li>
+          <li><a href="#">> eius et dolorem explicabo tempore rerum</a></li>
+          <li><a href="#">> suscipit alias consequatur et quia a</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">

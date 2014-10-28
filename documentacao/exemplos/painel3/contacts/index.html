@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html class="ls-theme-orange  ">
 <head>
+  <title>Contatos</title>
+
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Contatos</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" sizes="192x192" href="/locawebstyle/assets/images/ico-painel2.png">
+    <link rel="apple-touch-icon" href="/locawebstyle/assets/images/ico-painel2.png">
+    <meta name="apple-mobile-web-app-title" content="Painel 2">
+
   <link href="../../../../assets/stylesheets/locastyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="documentacao documentacao_exemplos documentacao_exemplos_painel3 documentacao_exemplos_painel3_contacts documentacao_exemplos_painel3_contacts_index">
@@ -42,37 +50,48 @@
 
   <span class="ls-show-sidebar ls-ico-menu"></span>
 
+  <a href="/locawebstyle/documentacao/exemplos/painel3/pre-painel"  class="ls-go-next"><span class="ls-text">Voltar à lista de serviços</span></a>
+
   <!-- Nome do produto/marca -->
-    <h1 class="ls-brand-name"><a class="ls-ico-earth" href="../home">Registro de Domínio</a></h1>
+    <h1 class="ls-brand-name">
+      <a href="home" class="ls-ico-earth">
+        <small>Registro de Domínio</small>
+        fmolina
+      </a>
+    </h1>
 </div>
 
 
   <aside class="ls-sidebar">
-        <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+  <a href="#" class="ls-ico-user">
+    João
+    <small>(fmolina)</small>
+  </a>
+  <nav class="ls-dropdown-nav ls-user-menu">
+    <a href="#" class="ls-btn-logout">Sair</a>
+  </nav>
+</div>
+  <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
     <a href="#" class="ls-ico-user">
       João
       <small>(fmolina)</small>
     </a>
     <nav class="ls-dropdown-nav ls-user-menu">
-      <ul>
-        <li><a href="#">Sair</a></li>
-       </ul>
+      <a href="#" class="ls-btn-logout">Sair</a>
     </nav>
   </div>
-  <!-- Dropdown com detalhes da conta de usuário -->
-  <div class="ls-area-account ls-ico-user">
-    <h2 class="ls-title-2">Administrando</h2>
-    <h3 class="ls-title-3">João da Silva</h3>
-    <a href="/locawebstyle/documentacao/exemplos/painel3/pre-painel" class="ls-btn-xs ls-btn-dark">VER TODOS</a>
+  <div class="ls-sidebar-inner">
+    <a href="/locawebstyle/documentacao/exemplos/painel3/pre-painel"  class="ls-go-prev"><span class="ls-text">Voltar à lista de serviços</span></a>
+    <nav class="ls-menu">
+      <ul>
+      <li><a href="/locawebstyle/documentacao/exemplos/painel3/nameservers" class="ls-ico-globe">Servidores de DNS</a></li>
+        <!-- <li><a href="/locawebstyle/documentacao/exemplos/painel3/base" class="ls-ico-home">Primeiros passos</a></li> -->
+        <li><a href="/locawebstyle/documentacao/exemplos/painel3/contacts" class="ls-ico-users">Contatos</a></li>
+        <li><a href="/locawebstyle/documentacao/exemplos/painel3/stats" class="ls-ico-cog">Transferência de domínio</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav class="ls-menu">
-    <ul>
-    <li><a href="/locawebstyle/documentacao/exemplos/painel3/nameservers" class="ls-ico-globe">Servidores de DNS</a></li>
-      <!-- <li><a href="/locawebstyle/documentacao/exemplos/painel3/base" class="ls-ico-home">Primeiros passos</a></li> -->
-      <li><a href="/locawebstyle/documentacao/exemplos/painel3/contacts" class="ls-ico-users">Contatos</a></li>
-      <li><a href="/locawebstyle/documentacao/exemplos/painel3/stats" class="ls-ico-cog">Transferência de domínio</a></li>
-    </ul>
-  </nav>
 
 
   </aside>
@@ -126,14 +145,12 @@
 
         <label class="ls-label col-md-2 col-xs-12">
           <b class="ls-label-text">País</b>
-          <div data-ls-module="customFields">
-            <select>
-              <option value="1"> Brasil </option>
-              <option value="2"> Argentina </option>
-              <option value="3"> Chile </option>
-              <option value="4"> Equador </option>
-            </select>
-          </div>
+          <select class="ls-custom-select">
+            <option value="1"> Brasil </option>
+            <option value="2"> Argentina </option>
+            <option value="3"> Chile </option>
+            <option value="4"> Equador </option>
+          </select>
         </label>
         <label class="ls-label col-md-1 col-xs-12">
           <b class="ls-label-text">Estado</b>
@@ -239,14 +256,12 @@
 
         <label class="ls-label col-md-2 col-xs-12">
           <b class="ls-label-text">País</b>
-          <div data-ls-module="customFields">
-            <select>
-              <option value="1"> Brasil </option>
-              <option value="2"> Argentina </option>
-              <option value="3"> Chile </option>
-              <option value="4"> Equador </option>
-            </select>
-          </div>
+          <select class="ls-custom-select">
+            <option value="1"> Brasil </option>
+            <option value="2"> Argentina </option>
+            <option value="3"> Chile </option>
+            <option value="4"> Equador </option>
+          </select>
         </label>
         <label class="ls-label col-md-1 col-xs-12">
           <b class="ls-label-text">Estado</b>
@@ -352,14 +367,12 @@
 
         <label class="ls-label col-md-2 col-xs-12">
           <b class="ls-label-text">País</b>
-          <div data-ls-module="customFields">
-            <select>
-              <option value="1"> Brasil </option>
-              <option value="2"> Argentina </option>
-              <option value="3"> Chile </option>
-              <option value="4"> Equador </option>
-            </select>
-          </div>
+          <select class="ls-custom-select">
+            <option value="1"> Brasil </option>
+            <option value="2"> Argentina </option>
+            <option value="3"> Chile </option>
+            <option value="4"> Equador </option>
+          </select>
         </label>
         <label class="ls-label col-md-1 col-xs-12">
           <b class="ls-label-text">Estado</b>
@@ -427,7 +440,7 @@
     <footer class="ls-footer" role="contentinfo">
   <nav class="ls-footer-menu">
       <h2 class="ls-title-footer">suporte e ajuda</h2>
-      <ul>
+      <ul class="ls-footer-list">
         <li>
           <a href="#" target="_blank" class="bg-customer-support">
             <span class="visible-lg">Atendimento</span>
@@ -452,7 +465,7 @@
   </nav>
   <div class="ls-footer-info">
     <span class="last-access ls-ico-screen"><strong>Último acesso: </strong>99/99/9999 99:99:99</span>
-    <div class="set-ip"><span class="set-ip"><strong>IP:</strong> 000.00.00.000</span></div>
+    <div class="set-ip"><strong>IP:</strong> 000.00.00.000</div>
     <p class="ls-copy-right">Copyright © 1997-2014 Serviços de Internet S/A.</p>
   </div>
 </footer>
@@ -465,23 +478,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Alias iusto repellat quia sapiente possimus</a>
+            <a href="#">Molestiae rerum culpa expedita ea velit est ullam quasi recusandae</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Rerum natus ea adipisci ex est et voluptate libero veniam odit aliquid a eos sed</a>
+            <a href="#">Expedita maiores est explicabo sit ea delectus enim</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Occaecati in vel a et non magnam fuga repudiandae</a>
+            <a href="#">Aut eos qui rerum animi quod dignissimos quaerat sed in laborum sed est ut optio</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Tenetur maxime impedit vero sit totam illo quaerat atque aut excepturi doloribus</a>
+            <a href="#">Quasi hic animi ex accusamus aspernatur velit placeat placeat ullam totam est labore mollitia</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Perspiciatis consequatur aut sit sint excepturi harum animi</a>
+            <a href="#">Quis fuga a dolorem eum et ex fuga mollitia quas facilis</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -490,8 +503,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> officiis et facere placeat incidunt eveniet</a></li>
-          <li><a href="#">> molestiae explicabo magnam accusamus et ad</a></li>
+          <li><a href="#">> numquam ipsam facere maiores est aliquam</a></li>
+          <li><a href="#">> sed quos molestias hic voluptate possimus</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">

@@ -49,6 +49,30 @@
       "path": "changelog/2014/09/04/versao-3-3-0"
   },
   
+  "changelog/2014/09/08/versao-3-3-1" :   {
+      "title": "Versão 3.3.1",
+      "description": "",
+      "path": "changelog/2014/09/08/versao-3-3-1"
+  },
+  
+  "changelog/2014/09/11/versao-3-3-2" :   {
+      "title": "Versão 3.3.2",
+      "description": "",
+      "path": "changelog/2014/09/11/versao-3-3-2"
+  },
+  
+  "changelog/2014/09/17/versao-3-3-3" :   {
+      "title": "Versão 3.3.3",
+      "description": "",
+      "path": "changelog/2014/09/17/versao-3-3-3"
+  },
+  
+  "changelog/2014/10/16/versao-3-4-0" :   {
+      "title": "Versão 3.4.0",
+      "description": "",
+      "path": "changelog/2014/10/16/versao-3-4-0"
+  },
+  
   "changelog" :   {
       "title": "Changelog",
       "description": "Acompanhe o changelog",
@@ -59,6 +83,12 @@
       "title": "Cartilha de elementos",
       "description": "",
       "path": "documentacao/cartilha-de-elementos"
+  },
+  
+  "documentacao/componentes/alert-box" :   {
+      "title": "Box de notificação",
+      "description": "Boxes de notificações usado para dividir ou agrupar notificações.",
+      "path": "documentacao/componentes/alert-box"
   },
   
   "documentacao/componentes/alertas" :   {
@@ -75,7 +105,7 @@
   
   "documentacao/componentes/botao-switch" :   {
       "title": "Botão Switch",
-      "description": "É um elemento que simula um liga/desliga, que verifica se o checkbox está checado, alternando visualmente o seu estado.",
+      "description": "O botão Switch permite a escolha de apenas uma entre duas opções (Ativado ou Desativado).",
       "path": "documentacao/componentes/botao-switch"
   },
   
@@ -191,6 +221,12 @@
       "title": "Estrutura de Grid",
       "description": "Estruturando seus layouts com o nosso sistema de grid",
       "path": "documentacao/css/grid"
+  },
+  
+  "documentacao/css/icones-panel" :   {
+      "title": "Ícones de painel",
+      "description": "Coleção de font icons ativadas por classe",
+      "path": "documentacao/css/icones-panel"
   },
   
   "documentacao/css/icones" :   {
@@ -451,6 +487,24 @@
       "path": "documentacao/exemplos/painel4/pre-painel"
   },
   
+  "documentacao/exemplos/painel5/dns-entries" :   {
+      "title": "Entradas de DNS",
+      "description": "",
+      "path": "documentacao/exemplos/painel5/dns-entries"
+  },
+  
+  "documentacao/exemplos/painel5/home" :   {
+      "title": "Entradas de DNS",
+      "description": "",
+      "path": "documentacao/exemplos/painel5/home"
+  },
+  
+  "documentacao/exemplos/painel5/pre-painel" :   {
+      "title": "Página Inicial",
+      "description": "",
+      "path": "documentacao/exemplos/painel5/pre-painel"
+  },
+  
   "documentacao/exemplos/product-not-hired" :   {
       "title": "",
       "description": "",
@@ -467,12 +521,6 @@
       "title": "Campos desabilitados",
       "description": "Opções para desabilitar campos ou mostrar em forma de texto",
       "path": "documentacao/formularios/campos-desabilitados"
-  },
-  
-  "documentacao/formularios/campos-personalizados" :   {
-      "title": "Campos personalizados",
-      "description": "Aqueles onde mudamos a aparência ou comportamento padrão do navegador",
-      "path": "documentacao/formularios/campos-personalizados"
   },
   
   "documentacao/formularios/contador" :   {
@@ -511,6 +559,12 @@
       "path": "documentacao/formularios/prefixos-sufixos"
   },
   
+  "documentacao/formularios/select-customizado" :   {
+      "title": "Select customizado",
+      "description": "Mudamos a aparência da select sem alterar o comportamento padrão do navegador",
+      "path": "documentacao/formularios/select-customizado"
+  },
+  
   "documentacao/formularios/tamanho-dos-campos" :   {
       "title": "Tamanho dos campos",
       "description": "Aumente ou diminua o tamanho dos campos de formulários",
@@ -521,6 +575,12 @@
       "title": "Textarea",
       "description": "Particularidades do textarea",
       "path": "documentacao/formularios/textarea"
+  },
+  
+  "documentacao/funcoes-js/alternar-classes" :   {
+      "title": "Alternando Classes",
+      "description": "Como alterar classes de elementos",
+      "path": "documentacao/funcoes-js/alternar-classes"
   },
   
   "documentacao/funcoes-js/alternar-textos" :   {
@@ -542,8 +602,8 @@
   },
   
   "documentacao/funcoes-js" :   {
-      "title": "Alternando Classes",
-      "description": "Como alterar classes de elementos",
+      "title": "Iniciando as funções JS",
+      "description": "Inicie as funções JS do Locaweb Style quando necessário",
       "path": "documentacao/funcoes-js"
   },
   

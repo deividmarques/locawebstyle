@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html class="ls-theme-light-green  ">
 <head>
+  <title>Dados do Servidor SMTP</title>
+
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Dados do Servidor SMTP</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" sizes="192x192" href="/locawebstyle/assets/images/ico-painel2.png">
+    <link rel="apple-touch-icon" href="/locawebstyle/assets/images/ico-painel2.png">
+    <meta name="apple-mobile-web-app-title" content="Painel 2">
+
   <link href="../../../../assets/stylesheets/locastyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="documentacao documentacao_exemplos documentacao_exemplos_painel2 documentacao_exemplos_painel2_config-email documentacao_exemplos_painel2_config-email_index">
@@ -42,46 +50,50 @@
 
   <span class="ls-show-sidebar ls-ico-menu"></span>
 
+  <a href="/locawebstyle/documentacao/exemplos/painel2/pre-painel"  class="ls-go-next"><span class="ls-text">Voltar à lista de serviços</span></a>
+
   <!-- Nome do produto/marca -->
-    <h1 class="ls-brand-name"><a class="ls-ico-earth" href="../home">SMTP Locaweb</a></h1>
+    <h1 class="ls-brand-name">
+      <a href="home" class="ls-ico-earth">
+        <small>SMTP Locaweb</small>
+        fmolina
+      </a>
+    </h1>
 </div>
 
 
   <aside class="ls-sidebar">
-        <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
-    <a href="#" class="ls-ico-user">
-      João
-      <small>(fmolina)</small>
-    </a>
-    <nav class="ls-dropdown-nav ls-user-menu">
+      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+  <a href="#" class="ls-ico-user">
+    João
+    <small>(fmolina)</small>
+  </a>
+  <nav class="ls-dropdown-nav ls-user-menu">
+    <ul>
+      <li><a href="#">Meus dados</a></li>
+      <li><a href="#">Faturas</a></li>
+      <li><a href="#">Planos</a></li>
+     </ul>
+     <a href="#" class="ls-btn-logout">Sair</a>
+  </nav>
+</div>
+  <div class="ls-sidebar-inner">
+    <a href="/locawebstyle/documentacao/exemplos/painel2/pre-painel"  class="ls-go-prev"><span class="ls-text">Voltar à lista de serviços</span></a>
+    <nav class="ls-menu">
       <ul>
-        <li><a href="#">Meus dados</a></li>
-        <li><a href="#">Faturas</a></li>
-        <li><a href="#">Planos</a></li>
-        <li><a href="#">Sair</a></li>
-       </ul>
+        <li><a href="/locawebstyle/documentacao/exemplos/painel2/home" class="ls-ico-home">Página inicial</a></li>
+        <li><a href="/locawebstyle/documentacao/exemplos/painel2/stats" class="ls-ico-stats">Relatórios</a></li>
+        <li class="ls-submenu">
+          <a href="#" class="ls-ico-cog">Configurações</a>
+          <ul>
+            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-server">Dados do Servidor SMTP</a></li>
+            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-email">E-mail de remetente</a></li>
+            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-excess">Envios excedentes</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </div>
-  <!-- Dropdown com detalhes da conta de usuário -->
-  <div class="ls-area-account ls-ico-user">
-    <h2 class="ls-title-2">Administrando</h2>
-    <h3 class="ls-title-3">João da Silva</h3>
-    <a href="/locawebstyle/documentacao/exemplos/painel2/pre-painel" class="ls-btn-xs ls-btn-dark">VER TODOS</a>
-  </div>
-  <nav class="ls-menu">
-    <ul>
-      <li><a href="/locawebstyle/documentacao/exemplos/painel2/home" class="ls-ico-home">Página inicial</a></li>
-      <li><a href="/locawebstyle/documentacao/exemplos/painel2/stats" class="ls-ico-stats">Relatórios</a></li>
-      <li class="ls-submenu">
-        <a href="#" class="ls-ico-cog">Configurações</a>
-        <ul>
-          <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-server">Dados do Servidor SMTP</a></li>
-          <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-email">E-mail de remetente</a></li>
-          <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel2/config-excess">Envios excedentes</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
 
 
 
@@ -111,26 +123,20 @@
     </thead>
     <tbody>
         <tr>
-          <td>alexis-schultz@mac.com
-            <span class="ls-tag-success">Confirmado</span>
-          </td>
+          <td>brayden_shaffer@gmail.com</td>
           <td class="ls-txt-right"> <button data-action="/locawebstyle" data-class="ls-btn-danger" data-close="Não tenho certeza" data-content="<div class='ls-txt-center'><h3 class='ls-title-3'>Você tem certeza que deseja excluir esse email?</h2><p>A exclusão do e-mail afetará os próximos envios com este remetente.</p></div>" data-ls-module="modal" data-save="Sim, desativar" data-title="Desativar email" class="ls-btn-danger">Excluir</button>  </td>
         </tr>
         <tr>
-          <td>brooklynncase@mac.com
-            <span class="ls-tag-success">Confirmado</span>
-          </td>
+          <td>teddyunderwood@mac.com</td>
           <td class="ls-txt-right"> <button data-action="/locawebstyle" data-class="ls-btn-danger" data-close="Não tenho certeza" data-content="<div class='ls-txt-center'><h3 class='ls-title-3'>Você tem certeza que deseja excluir esse email?</h2><p>A exclusão do e-mail afetará os próximos envios com este remetente.</p></div>" data-ls-module="modal" data-save="Sim, desativar" data-title="Desativar email" class="ls-btn-danger">Excluir</button>  </td>
         </tr>
         <tr>
-          <td>isabelle_bowden@mail.com
-            <span class="ls-tag-success">Confirmado</span>
-          </td>
+          <td>alvin-boswell@gmail.com</td>
           <td class="ls-txt-right"> <button data-action="/locawebstyle" data-class="ls-btn-danger" data-close="Não tenho certeza" data-content="<div class='ls-txt-center'><h3 class='ls-title-3'>Você tem certeza que deseja excluir esse email?</h2><p>A exclusão do e-mail afetará os próximos envios com este remetente.</p></div>" data-ls-module="modal" data-save="Sim, desativar" data-title="Desativar email" class="ls-btn-danger">Excluir</button>  </td>
         </tr>
         <tr>
           <td>
-            sadieallen@me.com
+            nadia-goldstein@email.com
             <span class="ls-tag-warning">Não confirmado</span>
           </td>
           <td class="ls-txt-right">
@@ -153,7 +159,7 @@
     <footer class="ls-footer" role="contentinfo">
   <nav class="ls-footer-menu">
       <h2 class="ls-title-footer">suporte e ajuda</h2>
-      <ul>
+      <ul class="ls-footer-list">
         <li>
           <a href="#" target="_blank" class="bg-customer-support">
             <span class="visible-lg">Atendimento</span>
@@ -178,7 +184,7 @@
   </nav>
   <div class="ls-footer-info">
     <span class="last-access ls-ico-screen"><strong>Último acesso: </strong>99/99/9999 99:99:99</span>
-    <div class="set-ip"><span class="set-ip"><strong>IP:</strong> 000.00.00.000</span></div>
+    <div class="set-ip"><strong>IP:</strong> 000.00.00.000</div>
     <p class="ls-copy-right">Copyright © 1997-2014 Serviços de Internet S/A.</p>
   </div>
 </footer>
@@ -191,23 +197,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Ea natus laborum est illo est sit vel nobis eum totam rerum</a>
+            <a href="#">Temporibus possimus dolorem iste labore tenetur in aut libero quia</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Perferendis consectetur ipsum velit repellendus</a>
+            <a href="#">Voluptatem modi quis eveniet ullam voluptatem quaerat deserunt quo illo</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Dignissimos qui necessitatibus voluptas vitae tempora</a>
+            <a href="#">Voluptates velit voluptatem ipsam necessitatibus nam iste tempore nam rerum facere ipsum enim</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Ipsa illo dolore labore et sunt et officia aperiam quo</a>
+            <a href="#">Molestiae minus aperiam repudiandae voluptatem pariatur ad quis et qui dolorum cupiditate voluptatum est fugiat</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Aut blanditiis officiis asperiores sint laudantium ea molestiae quidem rerum quae nulla minima repellat maxime</a>
+            <a href="#">Dolores pariatur libero temporibus dicta qui autem quia enim vel non expedita quia aut</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -216,8 +222,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> culpa ut est eum voluptatem eum</a></li>
-          <li><a href="#">> molestiae est illo assumenda omnis dolor</a></li>
+          <li><a href="#">> omnis dolore temporibus ut corporis distinctio</a></li>
+          <li><a href="#">> eos optio illo deleniti voluptatem necessitatibus</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">
