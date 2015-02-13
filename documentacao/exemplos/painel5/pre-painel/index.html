@@ -34,8 +34,8 @@
     <!-- Dropdown com detalhes da conta de usuário -->
     <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
       <a href="#" class="ls-ico-user">
-        João
-      <small>(fmolina)</small>
+        <span class="ls-name">João</span>
+        (fmolina)
       </a>
       <nav class="ls-dropdown-nav ls-user-menu">
         <ul>
@@ -59,8 +59,8 @@
   <aside class="ls-sidebar">
       <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
   <a href="#" class="ls-ico-user">
-    João
-    <small>(fmolina)</small>
+    <span class="ls-name">João</span>
+    (fmolina)</small>
   </a>
   <nav class="ls-dropdown-nav ls-user-menu">
     <ul>
@@ -71,7 +71,7 @@
      <a href="#" class="ls-btn-logout">Sair</a>
   </nav>
 </div>
-  <h1 class="ls-brand-name ls-ico-earth"><a href="home">Painel de DNS</a></h1>
+  <h1 class="ls-brand-name ls-ico-earth"><a href="home">Zona de DNS</a></h1>
 
 
   </aside>
@@ -85,19 +85,21 @@
   <form action="" class="ls-form ls-form-inline ls-float-left">
     <label class="ls-label">
       <b class="ls-label-text">Status</b>
-      <select class="ls-custom-select">
-        <option selected="&quot;selected&quot;" value="/resale/clients">Todos</option>
-        <option value="#">Registrados</option>
-        <option value="#">Não registrados</option>
-        <option value="#">Bloqueados</option>
-      </select>
+      <div class="ls-custom-select">
+        <select>
+          <option selected="&quot;selected&quot;" value="/resale/clients">Todos os domínios &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+          <option value="#">Registrados</option>
+          <option value="#">Não registrados</option>
+          <option value="#">Bloqueados</option>
+        </select>
+      </div>
     </label>
   </form>
 
   <form class="ls-form ls-form-inline ls-float-right">
     <label class="ls-label" role="search">
-      <b class="ls-label-text ls-hidden-accessible">Nome do cliente</b>
-      <input type="text" id="q" name="q" aria-label="Faça sua busca por cliente" accesskey="s" placeholder="Nome do cliente" required="">
+      <b class="ls-label-text ls-hidden-accessible">Busca por domínio</b>
+      <input type="text" id="q" name="q" aria-label="Faça sua busca por cliente" accesskey="s" placeholder="Busca por domínio" required="">
     </label>
     <div class="ls-actions-btn">
       <input type="submit" value="Buscar" class="ls-btn" title="Buscar">
@@ -151,16 +153,17 @@
     <li><a href="#">5</a></li>
     <li><a href="#">Próximo &raquo;</a></li>
   </ul>
-
   <div class="ls-filter-view">
     <label for="">
       Exibir
-      <select name="" id="" class="ls-custom-select">
-        <option value="10">10</option>
-        <option value="30">30</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-      </select>
+      <div class="ls-custom-select">
+        <select>
+          <option value="10">10</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
       ítens por página
     </label>
   </div>
@@ -210,23 +213,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Et et eligendi quod quia illum aut reprehenderit illo eius</a>
+            <a href="#">Sapiente quia explicabo sed vel optio iusto et quia magnam</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Et sed sunt consequatur temporibus provident repellat</a>
+            <a href="#">Fuga consequatur facilis aut excepturi qui repudiandae</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Quos omnis ea quam et quos eius similique ut sint voluptas laboriosam ea deserunt ducimus</a>
+            <a href="#">Sunt iusto molestiae est exercitationem harum dignissimos modi accusantium explicabo repellat</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Dolor odit quia velit</a>
+            <a href="#">Ut sed consequatur ipsum delectus est excepturi inventore</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Occaecati neque provident sint beatae architecto assumenda temporibus</a>
+            <a href="#">Et non et unde molestias officia ut culpa sequi maiores nostrum eaque accusamus qui</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -235,8 +238,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> autem sit blanditiis qui officia qui</a></li>
-          <li><a href="#">> vero nemo optio molestiae sit occaecati</a></li>
+          <li><a href="#">> autem a et magnam occaecati et</a></li>
+          <li><a href="#">> magnam molestias deserunt laboriosam dolorem facere</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">

@@ -34,8 +34,8 @@
     <!-- Dropdown com detalhes da conta de usuário -->
     <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
       <a href="#" class="ls-ico-user">
-        João
-      <small>(fmolina)</small>
+        <span class="ls-name">João</span>
+        (fmolina)
       </a>
       <nav class="ls-dropdown-nav ls-user-menu">
         <ul>
@@ -63,10 +63,10 @@
 
 
   <aside class="ls-sidebar">
-      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account ls-active">
   <a href="#" class="ls-ico-user">
-    João
-    <small>(fmolina)</small>
+    <span class="ls-name">João</span>
+    (fmolina)</small>
   </a>
   <nav class="ls-dropdown-nav ls-user-menu">
     <ul>
@@ -83,22 +83,22 @@
 
     <nav class="ls-menu">
       <ul>
-         <li><a href="/locawebstyle/documentacao/exemplos/painel1/home" class="ls-ico-home">Página inicial</a></li>
-         <!-- <li><a href="/locawebstyle/documentacao/exemplos/painel1/base" class="ls-ico-home">Primeiros passos</a></li> -->
+         <li><a href="/locawebstyle/documentacao/exemplos/painel1/home" class="ls-ico-dashboard">Dashboard</a></li>
          <li><a href="/locawebstyle/documentacao/exemplos/painel1/clients" class="ls-ico-users">Clientes</a></li>
          <li><a href="/locawebstyle/documentacao/exemplos/painel1/stats" class="ls-ico-stats">Relatórios da revenda</a></li>
-         <li class="ls-submenu">
+         <li>
           <a href="#" class="ls-ico-cog">Configurações</a>
           <ul>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-domain">Domínios da Revenda</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-email">E-mail de Remetente</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-aspect">Aparência</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-answer">Atendimento</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-api">Chave de acesso para API</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-domain">Domínios da Revenda</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-email">E-mail de Remetente</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-aspect">Aparência</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-answer">Atendimento</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-api">Chave de acesso para API</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+
 
 </div>
 
@@ -188,46 +188,56 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="ls-txt-center">Hoje</td>
-            <td class="ls-txt-center">29</td>
-            <td class="ls-txt-center">26</td>
-            <td class="ls-txt-center">89%</td>
-            <td class="ls-txt-center hidden-xs">3</td>
-            <td class="ls-txt-center hidden-xs">10%</td>
-            <td class="ls-txt-center hidden-xs">0</td>
-            <td class="ls-txt-center hidden-xs">0%</td>
-          </tr>
-          <tr>
-            <td class="ls-txt-center">Hoje</td>
-            <td class="ls-txt-center">29</td>
-            <td class="ls-txt-center">26</td>
-            <td class="ls-txt-center">89%</td>
-            <td class="ls-txt-center hidden-xs">3</td>
-            <td class="ls-txt-center hidden-xs">10%</td>
-            <td class="ls-txt-center hidden-xs">0</td>
-            <td class="ls-txt-center hidden-xs">0%</td>
-          </tr>
-          <tr>
-            <td class="ls-txt-center">Hoje</td>
-            <td class="ls-txt-center">29</td>
-            <td class="ls-txt-center">26</td>
-            <td class="ls-txt-center">89%</td>
-            <td class="ls-txt-center hidden-xs">3</td>
-            <td class="ls-txt-center hidden-xs">10%</td>
-            <td class="ls-txt-center hidden-xs">0</td>
-            <td class="ls-txt-center hidden-xs">0%</td>
-          </tr>
-          <tr>
-            <td class="ls-txt-center">Hoje</td>
-            <td class="ls-txt-center">29</td>
-            <td class="ls-txt-center">26</td>
-            <td class="ls-txt-center">89%</td>
-            <td class="ls-txt-center hidden-xs">3</td>
-            <td class="ls-txt-center hidden-xs">10%</td>
-            <td class="ls-txt-center hidden-xs">0</td>
-            <td class="ls-txt-center hidden-xs">0%</td>
-          </tr>
+            <tr>
+              <td class="ls-txt-center">Hoje</td>
+              <td class="ls-txt-center">29</td>
+              <td class="ls-txt-center">26</td>
+              <td class="ls-txt-center">89%</td>
+              <td class="ls-txt-center hidden-xs">3</td>
+              <td class="ls-txt-center hidden-xs">10%</td>
+              <td class="ls-txt-center hidden-xs">0</td>
+              <td class="ls-txt-center hidden-xs">0%</td>
+            </tr>
+            <tr>
+              <td class="ls-txt-center">Hoje</td>
+              <td class="ls-txt-center">29</td>
+              <td class="ls-txt-center">26</td>
+              <td class="ls-txt-center">89%</td>
+              <td class="ls-txt-center hidden-xs">3</td>
+              <td class="ls-txt-center hidden-xs">10%</td>
+              <td class="ls-txt-center hidden-xs">0</td>
+              <td class="ls-txt-center hidden-xs">0%</td>
+            </tr>
+            <tr>
+              <td class="ls-txt-center">Hoje</td>
+              <td class="ls-txt-center">29</td>
+              <td class="ls-txt-center">26</td>
+              <td class="ls-txt-center">89%</td>
+              <td class="ls-txt-center hidden-xs">3</td>
+              <td class="ls-txt-center hidden-xs">10%</td>
+              <td class="ls-txt-center hidden-xs">0</td>
+              <td class="ls-txt-center hidden-xs">0%</td>
+            </tr>
+            <tr>
+              <td class="ls-txt-center">Hoje</td>
+              <td class="ls-txt-center">29</td>
+              <td class="ls-txt-center">26</td>
+              <td class="ls-txt-center">89%</td>
+              <td class="ls-txt-center hidden-xs">3</td>
+              <td class="ls-txt-center hidden-xs">10%</td>
+              <td class="ls-txt-center hidden-xs">0</td>
+              <td class="ls-txt-center hidden-xs">0%</td>
+            </tr>
+            <tr>
+              <td class="ls-txt-center">Hoje</td>
+              <td class="ls-txt-center">29</td>
+              <td class="ls-txt-center">26</td>
+              <td class="ls-txt-center">89%</td>
+              <td class="ls-txt-center hidden-xs">3</td>
+              <td class="ls-txt-center hidden-xs">10%</td>
+              <td class="ls-txt-center hidden-xs">0</td>
+              <td class="ls-txt-center hidden-xs">0%</td>
+            </tr>
         </tbody>
       </table>
     </div>
@@ -278,23 +288,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Sint sed ut non nihil quia laudantium velit ipsum</a>
+            <a href="#">Sit adipisci quisquam et et officiis dolorem laboriosam beatae quasi et enim et</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Et beatae vel totam quia eos</a>
+            <a href="#">Iste similique placeat dignissimos excepturi</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">In mollitia alias quis iste nulla natus qui qui est facere illo cupiditate</a>
+            <a href="#">Iusto excepturi fuga qui atque suscipit quos dolor natus quasi aspernatur occaecati tempore et quia</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Dicta quod molestiae non dolor a et id dicta quis excepturi dignissimos maxime modi fugiat</a>
+            <a href="#">Ut et et eveniet ex consequatur consequatur qui occaecati consectetur officiis earum alias magni distinctio</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Voluptas voluptas dicta quibusdam deleniti molestiae non quaerat non nostrum quaerat dolor minima ipsa</a>
+            <a href="#">Quia sed aperiam a atque sit autem perferendis vitae</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -303,8 +313,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> recusandae officiis qui nihil beatae et</a></li>
-          <li><a href="#">> occaecati adipisci aliquid sed et voluptatem</a></li>
+          <li><a href="#">> et earum optio quidem tenetur architecto</a></li>
+          <li><a href="#">> exercitationem tempore totam totam et sint</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">

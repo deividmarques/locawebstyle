@@ -34,8 +34,8 @@
     <!-- Dropdown com detalhes da conta de usuário -->
     <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
       <a href="#" class="ls-ico-user">
-        João
-      <small>(fmolina)</small>
+        <span class="ls-name">João</span>
+        (fmolina)
       </a>
       <nav class="ls-dropdown-nav ls-user-menu">
         <ul>
@@ -63,10 +63,10 @@
 
 
   <aside class="ls-sidebar">
-      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account">
+      <div data-ls-module="dropdown" class="ls-dropdown ls-user-account ls-active">
   <a href="#" class="ls-ico-user">
-    João
-    <small>(fmolina)</small>
+    <span class="ls-name">João</span>
+    (fmolina)</small>
   </a>
   <nav class="ls-dropdown-nav ls-user-menu">
     <ul>
@@ -83,22 +83,22 @@
 
     <nav class="ls-menu">
       <ul>
-         <li><a href="/locawebstyle/documentacao/exemplos/painel1/home" class="ls-ico-home">Página inicial</a></li>
-         <!-- <li><a href="/locawebstyle/documentacao/exemplos/painel1/base" class="ls-ico-home">Primeiros passos</a></li> -->
+         <li><a href="/locawebstyle/documentacao/exemplos/painel1/home" class="ls-ico-dashboard">Dashboard</a></li>
          <li><a href="/locawebstyle/documentacao/exemplos/painel1/clients" class="ls-ico-users">Clientes</a></li>
          <li><a href="/locawebstyle/documentacao/exemplos/painel1/stats" class="ls-ico-stats">Relatórios da revenda</a></li>
-         <li class="ls-submenu">
+         <li>
           <a href="#" class="ls-ico-cog">Configurações</a>
           <ul>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-domain">Domínios da Revenda</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-email">E-mail de Remetente</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-aspect">Aparência</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-answer">Atendimento</a></li>
-            <li><a class="ls-submenu-item" href="/locawebstyle/documentacao/exemplos/painel1/config-api">Chave de acesso para API</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-domain">Domínios da Revenda</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-email">E-mail de Remetente</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-aspect">Aparência</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-answer">Atendimento</a></li>
+            <li><a href="/locawebstyle/documentacao/exemplos/painel1/config-api">Chave de acesso para API</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+
 
 </div>
 
@@ -115,12 +115,14 @@
   <form action="#" class="ls-form ls-form-inline ls-float-left">
     <label class="ls-label">
         <b class="ls-label-text">Status</b>
-        <select name="" class="ls-custom-select ls-field-sm">
-          <option value="">Todos</option>
-          <option value="">Ativo</option>
-          <option value="">Desativados</option>
-          <option value="">Bloqueados por bounce</option>
-        </select>
+        <div class="ls-custom-select ls-field-sm">
+          <select name="">
+            <option value="">Todos</option>
+            <option value="">Ativo</option>
+            <option value="">Desativados</option>
+            <option value="">Bloqueados por bounce</option>
+          </select>
+        </div>
       </label>
   </form>
   <form action="#" class="ls-form ls-form-inline ls-float-right">
@@ -270,12 +272,14 @@
   <div class="ls-filter-view">
     <label for="">
       Exibir
-      <select name="" id="" class="ls-custom-select ls-field-sm">
-        <option value="10">10</option>
-        <option value="30">30</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-      </select>
+      <div class="ls-custom-select ls-field-sm">
+        <select name="" id="">
+          <option value="10">10</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
       ítens por página
     </label>
   </div>
@@ -325,23 +329,23 @@
       <h3 class="ls-title-2">Notificações</h3>
       <ul>
           <li class="ls-dismissable">
-            <a href="#">Repudiandae qui eos nemo non et quasi</a>
+            <a href="#">Consequatur non et autem rerum earum quaerat quo odio assumenda repellat</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Aliquid dicta laudantium non sit sed voluptate eveniet labore incidunt repellat</a>
+            <a href="#">Consectetur aut nemo quam eius illo assumenda et labore incidunt excepturi</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Harum facere harum officiis aliquid illum amet quae minus</a>
+            <a href="#">Sit et similique neque reprehenderit odit sunt</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Repudiandae deserunt vitae earum cum ipsa quia vel est quia harum</a>
+            <a href="#">In inventore et ex delectus consectetur earum eligendi</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
           <li class="ls-dismissable">
-            <a href="#">Id odio fugit mollitia mollitia qui asperiores facilis et ut qui sunt</a>
+            <a href="#">Animi repellendus rerum dolorem quia distinctio eius eos</a>
             <a href="#" data-ls-module="dismiss" class="ls-ico-close ls-close-notification"></a>
           </li>
       </ul>
@@ -350,8 +354,8 @@
     <nav class="ls-notification-list" id="ls-help-curtain">
       <h3 class="ls-title-2">Feedback</h3>
       <ul>
-          <li><a href="#">> ratione sed et vero sed libero</a></li>
-          <li><a href="#">> sed accusantium maiores aperiam quo illum</a></li>
+          <li><a href="#">> quibusdam facilis omnis enim accusamus earum</a></li>
+          <li><a href="#">> fugit labore earum enim modi accusamus</a></li>
       </ul>
     </nav>
     <nav class="ls-notification-list" id="ls-feedback-curtain">

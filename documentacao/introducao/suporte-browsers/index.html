@@ -54,7 +54,7 @@
       <li class=''><a class='' href='/locawebstyle/documentacao/introducao/'>Introdução</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/css/grid/'>CSS</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/funcoes-js/'>Funções JS</a></li>
-      <li class=''><a class='' href='/locawebstyle/documentacao/componentes/'>Componentes</a></li>
+      <li class=''><a class='' href='/locawebstyle/documentacao/componentes/estrutura-principal/'>Componentes</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/formularios/'>Formulários</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/exemplos/'>Telas de Exemplo</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/cartilha-de-elementos/'>Cartilha de Elementos</a></li>
@@ -73,6 +73,7 @@
       <li class=''><a class='' href='/locawebstyle/documentacao/introducao/boilerplate/'>Comece por aqui</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/praticas/css/'>Padrões de CSS</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/praticas/javascript/'>Padrões de Javascript</a></li>
+      <li class=''><a class='' href='/locawebstyle/documentacao/introducao/grunt/'>Grunt Tasks</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/introducao/chrome/'>Extensão para Chrome</a></li>
       <li class='active'><a class='active' href='/locawebstyle/documentacao/introducao/suporte-browsers/'>Suporte para Browsers Antigos</a></li>
       <li class=''><a class='' href='/locawebstyle/documentacao/introducao/contribua/'>Contribua</a></li>
@@ -125,6 +126,24 @@
 </div>
 
   <p>Geralmente nós mantemos o suporte para browsers com duas versões anteriores. Por exemplo: a versão mais atual do IE é a 11, por isso damos suporte para o IE 9, 10 e 11. A barra, nesse caso iria aparecer para o IE8 ou inferior.</p>
+
+<h2 class="doc-title-3">Classes com o nome do navegador</h2>
+  <p>
+    Quando o locastyle é iniciado, automaticamente é adicionado uma classe correspondente ao navegador acessado.
+    <br>
+    Isso possibilita criar conteúdos exclusivos para certos navegadores e possíveis melhorias.
+  </p>
+  <table class="ls-table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>.ls-browser-"navegador" <strong>(exemplo: .ls-browser-chrome)</strong></td><td>Classe adicionada na tag html</td></tr>
+    </tbody>
+  </table>
 
 </section>
 
